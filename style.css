@@ -65,16 +65,12 @@ body {
     border-radius: 20px;
     color: white;
     cursor: pointer;
-    transition: padding-top 1s,
-        padding-bottom 1s,
-        padding-left 1s,
-        padding-right 1s;
 
 }
 
 .categories p:hover {
     box-shadow: 2px 2px 5px black;
-    padding: 15px;
+   
 }
 .tech-image{
     position: relative;
@@ -94,7 +90,22 @@ body {
     position: absolute;
     bottom: 200px;
     left: 200px;
+    animation-name: zoom;
+    animation-duration: 2s;
+    opacity: 0;
 }
+@keyframes zoom {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+
+        transform: scale(1);
+
+    }
+    
+}
+
 .tech-image__offer button{
     background-color:#892DE1 ;
     border: #892DE1 solid 1px;
