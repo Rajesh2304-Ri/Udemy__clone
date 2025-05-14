@@ -1,0 +1,243 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid darkgrey;
+    gap: 10px;
+    align-items: center;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.navbar__s1__title {
+    color: #9537D6;
+    align-items: center;
+}
+
+.navbar__s2 {
+    border: 1px solid grey;
+    border-radius: 30px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__s2 input {
+    outline: none;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent
+
+}
+
+.navbar__s3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.categories {
+    padding: 10px;
+    border: gray 1px solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.categories p {
+    background-color: #A433EE;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: padding-top 1s,
+        padding-bottom 1s,
+        padding-left 1s,
+        padding-right 1s;
+
+}
+
+.categories p:hover {
+    box-shadow: 2px 2px 5px black;
+    padding: 15px;
+}
+.tech-image{
+    position: relative;
+}
+.tech-image img {
+    width: 100%;
+    
+}
+.tech-image__offer{
+    padding: 10px;
+    width: 400px;
+    height: 180px;
+    background-color: white;
+    border: white 1px solid;
+    border-radius: 5px;
+    color: #2A2B3F;
+    position: absolute;
+    bottom: 200px;
+    left: 200px;
+}
+.tech-image__offer button{
+    background-color:#892DE1 ;
+    border: #892DE1 solid 1px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+.tech-image__offer button:hover{
+    background-color: #2A2B3F;
+}
+.tech-image__offer h2,p,button{
+    padding: 10px;
+}
+
+.recommended {
+    padding: 15px;
+}
+
+.recommended__title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.recommended-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+.course-card {
+    width: 250px;
+    height: 270px;
+}
+
+.course-card:hover {
+    color: grey;
+    box-shadow: 2px 2px 5px black;
+}
+
+.course-card p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.course-card img {
+    width: 100%;    
+    height: 60%;
+
+
+}
+
+.course-card__lec {
+    font-size: small;
+    color: gray;
+}
+
+.course-card__rating {
+    color: #C4710D;
+}
+
+.Topics {
+    padding: 10px;
+}
+
+.Topics__title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.Topics-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    gap: 10px;
+}
+
+.Topics-container p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: solid gray 3px;
+    padding: 10px;
+    flex-grow: 4;
+    flex-basis: 20%;
+    border-radius: 30px;
+}
+
+.Topics-container p:hover {
+    background-color: turquoise;
+}
+
+.popular {
+    padding: 10px;
+}
+
+.popular__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.popular__course {
+    width: 250px;
+    height: 270px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.popular__course:hover {
+    color: grey;
+    box-shadow: 2px 2px 5px black;
+
+}
+
+.popular__container img {
+    width: 100%;
+    height: 60%;
+}
+
+.footer {
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+.footer__one {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__one p {
+    margin: 20px;
+    font-size: larger;
+}
+
+.footer__two {
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__one p:hover {
+    background-color: antiquewhite;
+    color: black;
+}
